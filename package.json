@@ -1,0 +1,41 @@
+{
+  "name": "hellokraken",
+  "version": "0.1.0",
+  "description": "HelloKraken",
+  "author": "Omprakash",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "." : "node index.js"
+  },
+  "dependencies": {
+    "engine-munger": "^0.2.0",
+    "express": "^4.3.0",
+    "kraken-devtools": "^1.0.0",
+    "kraken-js": "^1.0.1",
+    "less": "^1.6.1",
+    "localizr": "^0.1.0",
+    "marko" : "*"
+  },
+  "devDependencies": {
+    "browserify": "^3.46.1",
+    "grunt": "^0.4.1",
+    "grunt-browserify": "^2.0.1",
+    "grunt-config-dir": "^0.3.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.9.0",
+    "grunt-copy-to": "0.0.10",
+    "grunt-localizr": "^0.1.0",
+    "grunt-mocha-cli": "^1.5.0",
+    "mocha": "^1.18.0",
+    "supertest": "^0.9.0"
+  },
+  "generator-kraken": {
+    "version": "1.1.2",
+    "template": false,
+    "css": "less",
+    "js": "browserify",
+    "task": "grunt"
+  }
+}
